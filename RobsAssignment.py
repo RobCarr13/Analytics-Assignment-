@@ -4,7 +4,9 @@ Created on Sat Oct 10 20:42:52 2015
 
 @author: RobertCarr
 """
-
+#Analytics Research & Implementation
+#MIS40750
+#Due: 11/10/2015
 import sqlite3
 
 conn = sqlite3.connect('renewable.db') # create a "connection"
@@ -161,6 +163,9 @@ for i in nearestports:
     nearestporttoprod.append(a)
 print nearestporttoprod
 
+#X1 will contain the distance from the first plant to all the other plants 
+#in 9 values in a list. For example the first value in x1 will be the distance
+#between the first plant and the second plant.
 x1= []
 x2 = []
 x3 = []
